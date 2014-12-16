@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="fire_red">#e92000</color>
+	<color name="fire_red_dark">#d00000</color>
+	
+	<color name="white">#ffffff</color>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:andrano="http://schemas.android.com/apk/gen/de.andrano">
+	
+	<Preference 
+		android:key="@string/key_start_dream"
+		android:title="@string/bd_start_dream"
+		android:icon="@drawable/ic_start_dream"/>
+	
+	<ListPreference 
+		android:key="@string/key_list_dreams"
+		android:title="@string/bd_select_dream"
+		android:icon="@drawable/ic_select"/>
+	
+	<CheckBoxPreference
+		android:key="@string/key_checkbox_fullscreen"
+		android:title="@string/bd_fullscreen"
+		android:icon="@drawable/ic_fullscreen"/>
+	
+	<CheckBoxPreference
+		android:key="@string/key_checkbox_android_logo"
+		android:title="@string/bd_android_logo"
+		android:icon="@drawable/ic_android"/>
+	
+	<PreferenceScreen 
+		android:key="@string/key_developer_options"
+		android:title="@string/bd_developer_screen"
+		android:icon="@drawable/ic_developer">
+		<CheckBoxPreference 
+			android:defaultValue="true"
+			android:icon="@drawable/ic_resolution"
+			android:key="@string/key_checkbox_resolution"
+			android:summary="@string/bd_sample_size_help"
+			android:title="@string/bd_use_sample_size"/>
+	</PreferenceScreen>
+	
+	<PreferenceScreen
+		android:title="@string/bd_about"
+		android:icon="@drawable/ic_heart">
+		
+		<PreferenceCategory 
+			android:title="@string/version">
+			<Preference 
+				android:title="@string/version_number"
+				android:key="@string/key_version_number"/>
+		</PreferenceCategory>
+		
+		<PreferenceCategory 
+			android:title="@string/bd_author">
+			<de.andrano.preference.LinkPreference
+				android:title="@string/author_name"
+				andrano:uri="https://andrano.de"/>
+		</PreferenceCategory>
+		
+		<PreferenceCategory 
+			android:title="@string/bd_licenses">
+			<de.andrano.preference.LinkPreference
+					android:title="@string/bd_credit_linkpreference"
+					andrano:uri="https://github.com/Andr3as/"/>
+			<de.andrano.preference.LinkPreference
+				android:title="@string/bd_credit_boot_icon"
+				andrano:uri="http://creativecommons.org/licenses/by/3.0/"/>
+		</PreferenceCategory>
+	</PreferenceScreen>
+		
+</PreferenceScreen>

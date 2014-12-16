@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Keys for Preference Screen -->
+	<string name="key_start_dream">key_start_dream</string>
+	<string name="key_list_dreams">key_list_dreams</string>
+	<string name="key_checkbox_fullscreen">key_checkbox_fullscreen</string>
+	<string name="key_checkbox_android_logo">key_checkbox_android_logo</string>
+	<string name="key_checkbox_resolution">key_checkbox_resolution</string>
+	<string name="key_version_number">key_version_number</string>
+	
+	<string name="key_developer_options">key_developer_options</string>
+	
+	<string name="preferencesFile">de.andrano.bootdream.preferences</string>
+	
+	<!-- Keys for SharedPreferences -->
+	<string name="shared_default_dream">shared_default_dream</string>
+	<string name="shared_hide_developer_options">shared_hide_developer_options</string>
+</resources>

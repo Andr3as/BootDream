@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="bd_credit_linkpreference">LinkPreference unter MIT Lizenz</string>
+	<string name="bd_credit_boot_icon">Boot Icon erstellt durch Freepik von flaticon.com unter CC BY 3.0</string>
+	<string name="action_settings">Einstellungen</string>
+	
+	<!-- Deutsche Strings -->
+	
+	<string name="bd_start_dream">Daydream starten</string>
+	<string name="bd_select_dream">Daydream auswählen</string>
+	<string name="bd_fullscreen">Im Vollbild anzeigen</string>
+	<string name="bd_android_logo">Android am Ende anzeigen</string>
+	<string name="bd_about">Über</string>
+	<string name="bd_author">Autor</string>
+	
+	<string name="bd_developer_screen">Entwickleroptionen</string>
+	<string name="bd_use_sample_size">Auflösung halbieren</string>
+	<string name="bd_sample_size_help">Kann Speicherauslastung verringern</string>
+	
+	<string name="bd_licenses">Lizenzen</string>
+	
+	<!-- Toasts -->
+	<string name="bd_device_problem">Ihr Gerät unterstützt diesen Knopf nicht. Warten Sie bis das System den Daydream startet.</string>
+	<string name="bd_developer_options_enabled">Entwickleroptionen freigeschaltet</string>
+	<string name="bd_developer_options_disabled">Entwickleroptionen deaktiviert</string>
+	<string name="bd_unable_to_create_directory">Speicherverzeichnis konnte nicht erstellt werden</string>
+	<string name="bd_missing_description">Fehlerhafte Bootanimation</string>
+	<string name="bd_incorrect_description">Fehlerhafte Informationenen</string>
+	
+</resources>

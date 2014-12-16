@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Releases -->
+	<string name="version_number">1.0.1 - Eureka</string>
+	<item type="integer" name="version_code">2</item>
+	
+	<string name="app_name">BootDream</string>
+	
+	<!-- Common Strings -->
+	
+	<string name="author_name">Andr3as &lt;Andrano.de&gt;</string>
+	<string name="bd_credit_linkpreference">LinkPreference under MIT Lizenz</string>
+	<string name="bd_credit_boot_icon">Boot Icon made by Freepik from flaticon.com under CC BY 3.0</string>
+	<string name="version">Version</string>
+	
+	<!-- English Strings -->
+	
+	<string name="bd_start_dream">Start Daydream</string>
+	<string name="bd_select_dream">Select Daydream</string>
+	<string name="bd_fullscreen">Show as fullscreen</string>
+	<string name="bd_android_logo">Display android at the end</string>
+	<string name="bd_about">About</string>
+	<string name="bd_author">Author</string>
+	
+	<string name="bd_developer_screen">Developer options</string>
+	<string name="bd_use_sample_size">Halve resolution</string>
+	<string name="bd_sample_size_help">Could reduce memory usage</string>
+	
+	<string name="bd_licenses">Licenses</string>
+	
+	<!-- Toasts -->
+	<string name="bd_device_problem">Your device does not support this button. Wait until the system starts the Daydream.</string>
+	<string name="bd_developer_options_enabled">Developer options enabled</string>
+	<string name="bd_developer_options_disabled">Developer options disabled</string>
+	<string name="bd_unable_to_create_directory">Unable to create storage location</string>
+	<string name="bd_missing_description">Incorrect boot animation</string>
+	<string name="bd_incorrect_description">Incorrect description</string>
+	
+</resources>
