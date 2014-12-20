@@ -10,6 +10,7 @@
 	<string name="key_version_number">key_version_number</string>
 	
 	<string name="key_developer_options">key_developer_options</string>
+	<string name="key_playback_speed">key_playback_speed</string>
 	
 	<string name="preferencesFile">de.andrano.bootdream.preferences</string>
 	

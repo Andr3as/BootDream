@@ -198,10 +198,21 @@ public class DreamHandler {
 			String[] lines = description.split("\n");
 			String[] current = lines[0].split(" ");
 			Log.d("de.andrano.bootdream", current[2]);
+			
+			//Calculate duration
 			int fps = Integer.valueOf(current[2]);
 			int duration =  1000/fps; //Duration has to be given in milliSeconds, 1s = 1000ms
+			//Playback speed
+			String playback_pref_val = defaultPreferences.getString(
+						resources.getString(R.string.key_playback_speed), 
+						resources.getString(R.string.playback_speed_default_value));
+			float playback_speed = Float.valueOf(playback_pref_val);
+			duration = (int) (duration/playback_speed);
+			
 			Log.d("de.andrano.bootdream", "duration: " + duration);
 			Log.d("de.andrano.bootdream", "fps: " + fps);
+			Log.d("de.andrano.bootdream", "playback_speed: " + playback_speed);
+			
 			DreamFrame frame;
 			for (int i = 1; i < lines.length; i++) {
 				current = lines[i].split(" ");

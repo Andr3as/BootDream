@@ -18,6 +18,7 @@
 	<string name="bd_developer_screen">Entwickleroptionen</string>
 	<string name="bd_use_sample_size">Auflösung halbieren</string>
 	<string name="bd_sample_size_help">Kann Speicherauslastung verringern</string>
+	<string name="bd_playback_speed">Wiedergabegeschwindigkeit</string>
 	
 	<string name="bd_licenses">Lizenzen</string>
 	

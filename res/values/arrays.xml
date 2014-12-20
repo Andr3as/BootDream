@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Playback speed -->
+	<string-array name="array_playback_speed_values">
+		<item>0.25</item>
+		<item>0.5</item>
+		<item>0.75</item>
+		<item>1</item>
+		<item>1.25</item>
+		<item>1.5</item>
+		<item>2</item>
+	</string-array>
+	
+	<string-array name="array_playback_speed_entries">
+		<item>0.25x</item>
+		<item>0.5x</item>
+		<item>0.75x</item>
+		<item>1x</item>
+		<item>1.25x</item>
+		<item>1.5x</item>
+		<item>2x</item>
+	</string-array>
+	
+	<string name="playback_speed_default_value">1</string>
+	
+</resources>

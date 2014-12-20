@@ -37,6 +37,14 @@
 			android:key="@string/key_checkbox_resolution"
 			android:summary="@string/bd_sample_size_help"
 			android:title="@string/bd_use_sample_size"/>
+		
+		<ListPreference 
+			android:key="@string/key_playback_speed"
+			android:title="@string/bd_playback_speed"
+			android:icon="@drawable/ic_animation_speed"
+			android:entries="@array/array_playback_speed_entries"
+			android:entryValues="@array/array_playback_speed_values"
+			android:defaultValue="@string/playback_speed_default_value"/>
 	</PreferenceScreen>
 	
 	<PreferenceScreen

@@ -2,7 +2,7 @@
 <resources>
 
 	<!-- Releases -->
-	<string name="version_number">1.0.3 - Eureka</string>
+	<string name="version_number">1.0.4 - Eureka</string>
 	<item type="integer" name="version_code">3</item> <!-- Change it also in the Manifest! -->
 	
 	<string name="app_name">BootDream</string>
@@ -29,6 +29,7 @@
 	<string name="bd_developer_screen">Developer options</string>
 	<string name="bd_use_sample_size">Halve resolution</string>
 	<string name="bd_sample_size_help">Could reduce memory usage</string>
+	<string name="bd_playback_speed">Playback speed</string>
 	
 	<string name="bd_licenses">Licenses</string>
 	
