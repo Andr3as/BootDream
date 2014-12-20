@@ -3,12 +3,14 @@ package de.andrano.bootdream;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.AnimationDrawable;
-import android.media.tv.TvContract.Channels.Logo;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.service.dreams.DreamService;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 
@@ -42,7 +44,8 @@ public class BootDreamsService extends DreamService{
 		//Android Logo
 		Boolean android_logo = sharedPref.getBoolean(resources.getString(R.string.key_checkbox_android_logo), false);
 		if (android_logo) {
-			setInteractive(false);
+			setInteractive(true);
+			img.setOnClickListener(imageClick);
 		} else {
 			setInteractive(false);
 		}
@@ -82,5 +85,29 @@ public class BootDreamsService extends DreamService{
 		Log.d("de.andrano.bootdream", "onDetachedFromWindow");
 		super.onDetachedFromWindow();
 	}
+	
+	OnClickListener imageClick = new OnClickListener() {
 		
+		@Override
+		public void onClick(View v) {
+			setInteractive(false);
+			animation.stop();
+			img.setImageResource(R.drawable.android_logo);
+			Animation fadeIn = AnimationUtils.loadAnimation(getApplicationContext(), R.animator.fadein);
+			img.startAnimation(fadeIn);
+			Handler handler = new Handler();
+			long delay = fadeIn.getDuration() + resources.getInteger(R.integer.fadein_delay);
+			handler.postDelayed(stopSelf, delay);
+		}
+	};
+	
+	Runnable stopSelf = new Runnable() {
+		
+		@Override
+		public void run() {
+			Log.d("de.andrano.bootdream", "Stop self");
+			finish();
+		}
+	};
+	
 }

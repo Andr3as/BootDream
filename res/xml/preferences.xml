@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
-	xmlns:andrano="http://schemas.android.com/apk/gen/de.andrano">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 	
 	<Preference 
 		android:key="@string/key_start_dream"
@@ -37,7 +36,6 @@
 	<PreferenceScreen
 		android:title="@string/bd_about"
 		android:icon="@drawable/ic_heart">
-		
 		<PreferenceCategory 
 			android:title="@string/version">
 			<Preference 
@@ -47,19 +45,18 @@
 		
 		<PreferenceCategory 
 			android:title="@string/bd_author">
-			<de.andrano.preference.LinkPreference
-				android:title="@string/author_name"
-				andrano:uri="https://andrano.de"/>
+			<Preference android:title="@string/author_name" >
+			    <intent android:action="android.intent.action.VIEW"
+			            android:data="https://andrano.de" />
+			</Preference>
 		</PreferenceCategory>
 		
 		<PreferenceCategory 
 			android:title="@string/bd_licenses">
-			<de.andrano.preference.LinkPreference
-					android:title="@string/bd_credit_linkpreference"
-					andrano:uri="https://github.com/Andr3as/"/>
-			<de.andrano.preference.LinkPreference
-				android:title="@string/bd_credit_boot_icon"
-				andrano:uri="http://creativecommons.org/licenses/by/3.0/"/>
+			<Preference android:title="@string/bd_credit_boot_icon" >
+			    <intent android:action="android.intent.action.VIEW"
+			            android:data="http://creativecommons.org/licenses/by/3.0/" />
+			</Preference>
 		</PreferenceCategory>
 	</PreferenceScreen>
 		
