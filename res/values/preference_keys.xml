@@ -5,6 +5,7 @@
 	<string name="key_list_dreams">key_list_dreams</string>
 	<string name="key_checkbox_fullscreen">key_checkbox_fullscreen</string>
 	<string name="key_checkbox_android_logo">key_checkbox_android_logo</string>
+	<string name="key_checkbox_screen_brightness">key_checkbox_screen_brightness</string>
 	<string name="key_checkbox_resolution">key_checkbox_resolution</string>
 	<string name="key_version_number">key_version_number</string>
 	

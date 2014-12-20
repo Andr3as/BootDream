@@ -35,20 +35,18 @@ public class BootDreamsService extends DreamService{
 		
 		//Fullscreen
 		Boolean fullscreen = sharedPref.getBoolean(resources.getString(R.string.key_checkbox_fullscreen), false);
-		if (fullscreen) {
-			setFullscreen(true);
-		} else {
-			setFullscreen(false);
-		}
+		setFullscreen(fullscreen);
 		
 		//Android Logo
 		Boolean android_logo = sharedPref.getBoolean(resources.getString(R.string.key_checkbox_android_logo), false);
+		setInteractive(android_logo);
 		if (android_logo) {
-			setInteractive(true);
 			img.setOnClickListener(imageClick);
-		} else {
-			setInteractive(false);
 		}
+		
+		//Screen brightness
+		Boolean brightness = sharedPref.getBoolean(resources.getString(R.string.key_checkbox_screen_brightness), true);
+		setScreenBright(brightness);
 		
 		//Load dream
 		if (animation == null) {

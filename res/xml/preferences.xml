@@ -21,6 +21,12 @@
 		android:title="@string/bd_android_logo"
 		android:icon="@drawable/ic_android"/>
 	
+	<CheckBoxPreference 
+		android:key="@string/key_checkbox_screen_brightness"
+		android:title="@string/bd_screen_brightness"
+		android:icon="@drawable/ic_screen_brightness"
+		android:defaultValue="true"/>
+	
 	<PreferenceScreen 
 		android:key="@string/key_developer_options"
 		android:title="@string/bd_developer_screen"

@@ -2,7 +2,7 @@
 <resources>
 
 	<!-- Releases -->
-	<string name="version_number">1.0.2 - Eureka</string>
+	<string name="version_number">1.0.3 - Eureka</string>
 	<item type="integer" name="version_code">3</item> <!-- Change it also in the Manifest! -->
 	
 	<string name="app_name">BootDream</string>
@@ -21,6 +21,7 @@
 	<string name="bd_select_dream">Select Daydream</string>
 	<string name="bd_fullscreen">Show as fullscreen</string>
 	<string name="bd_android_logo">Display android at the end</string>
+	<string name="bd_screen_brightness">Keep screen bright</string>
 	
 	<string name="bd_about">About</string>
 	<string name="bd_author">Author</string>

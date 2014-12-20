@@ -10,7 +10,7 @@
 	<string name="bd_select_dream">Daydream auswählen</string>
 	<string name="bd_fullscreen">Im Vollbild anzeigen</string>
 	<string name="bd_android_logo">Android am Ende anzeigen</string>
-	
+	<string name="bd_screen_brightness">Bildschirm nicht abdunkeln</string>
 	
 	<string name="bd_about">Über</string>
 	<string name="bd_author">Autor</string>
