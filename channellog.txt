@@ -2,8 +2,9 @@ versions:
 
 Eureka
 	1.0.0 Alpha Release
-	1.0.1 Kleinen Fehler behoben, der verursachte, dass die Entwickleroptionen nach dem Hinzufügen nicht sofort wieder entfernt werden konnten. War erst nach einem Recreate der App möglich.
+	1.0.1 Kleinen Fehler behoben, der verursachte, dass die Entwickleroptionen nach dem HinzufŸgen nicht sofort wieder entfernt werden konnten. War erst nach einem Recreate der App mšglich.
 
 Later Versions:
+Flash
 Warehouse
 Chuck
